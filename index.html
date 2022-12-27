@@ -14,7 +14,48 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container hide__sign">
+      <div class="firstPage-block">
+        <!-- ! Sing IN -->
+        <img
+          class="inst__img"
+          src="https://thepreviewapp.com/wp-content/uploads/2022/12/instagram-feed-planner-app-preview-1-1-2023.jpg"
+          alt=""
+        />
+        <div class="block__signIn">
+          <img
+            class="img__logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/840px-Instagram_logo.svg.png"
+            alt=""
+          />
+
+          <form>
+            <div class="form-control">
+              <input
+                type="text"
+                required
+                placeholder="Login"
+                class="S_input-login"
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="password"
+                required
+                placeholder="password"
+                class="S_input-password"
+              />
+            </div>
+            <button class="btn first__btn-in">Войти</button>
+            <p class="text">
+              Нет учетной записи? <a href="#">Авторизоваться</a>
+            </p>
+          </form>
+        </div>
+      </div>
+      <!-- ? Sing IN -->
+
+      <!-- ! MODALKA -->
       <div class="add-post">
         <input type="url" class="input-url input-block mt-5" value="url фото" />
         <input
@@ -31,6 +72,94 @@
         <img src="" alt="" class="post-img" />
       </div>
     </div>
+    <!-- ? MODALKA -->
+
+    <!-- ! logIn -->
+    <div class="block__logIn log-in">
+      <img
+        class="img__logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2in/2a/Instagram_logo.svg/840px-Instagram_logo.svg.png"
+        alt=""
+      />
+
+      <form>
+        <div class="form-control">
+          <input
+            type="text"
+            required
+            placeholder="Login"
+            class="L_input-login"
+            name="login"
+          />
+        </div>
+        <div class="form-control">
+          <input
+            type="password"
+            required
+            placeholder="password"
+            class="L_input-password"
+            name="password"
+          />
+        </div>
+        <div class="form-control">
+          <input
+            type="password"
+            required
+            placeholder="repeat password"
+            class="L_input-password-rep"
+            name="passwordRepeat"
+          />
+        </div>
+        <button class="btn first__btn-logIn">Зарегистрироваться</button>
+      </form>
+    </div>
+    <!-- ? logIn -->
+
+    <!-- ! VERSTKA -->
+    <div class="container">
+      <div class="hide">
+        <div class="header">
+          <div class="header__logo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/840px-Instagram_logo.svg.png"
+              alt="logo"
+            />
+          </div>
+          <div class="header__center">
+            <ul>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+              <a href="#">
+                <li></li>
+              </a>
+            </ul>
+          </div>
+          <div class="search-box">
+            <input type="text" class="search-txt" placeholder="Поиск" />
+            <a href="" class="search-btn">
+              <img
+                src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png"
+                alt=""
+                width="20px"
+              />
+            </a>
+          </div>
+
+          <div id="open-home"></div>
+          <div id="open-message"></div>
+          <div class="add-Publications" id="add-publication"></div>
+          <div id="open-admin"></div>
+        </div>
+      </div>
+    </div>
+    <!-- ? VERSTKA -->
 
     <script src="./js/main.js"></script>
   </body>
